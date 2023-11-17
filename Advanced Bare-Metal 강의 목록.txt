@@ -1,0 +1,136 @@
+Advanced Embedded Systems Bare-Metal Programming Ground Up™ - Israel
+======================================================================
+
+//: Setting Up
+1. Downloading CubeIDE
+1. Downloading CubeIDE
+2. Installing CubeIDE
+3. Getting the required documentation
+4. Getting the required package for bare-metal development
+5. Testing the project setup
+
+//2: Essential of Firmware Debugging
+6. Introduction to Debugging
+7. Getting familiar with the Debug View
+8. Working with the Instrumentation Trace Macrocell (ITM)
+9. Retargetting "printf()" and creating Log functions
+10. Debugging with UART - Analyzing the Documentation
+11. Debugging with UART - Writing the UART Driver
+12. Debugging with UART - Testing the UART Driver
+13. Debugging GPIO with Serial Wire Viewer (SWV)
+14. Overview of the Direct Memory Access (DMA) Module
+
+//3: Developing Bare-Metal-to-Memory Direct Access(DMA) Drivers
+15. Analyzing the DMA Documentation
+16. Writing the DMA Memory-to-Memory Driver
+17. Implementing the DMA Data Transfer function
+18. Testing the DMA Driver
+
+//4: Developing Bare-Metal DMA Drivers
+19. Understanding ADC Independents Modes
+20. Analyzing the ADC Documentation
+21. Writing the ADC DMA Driver (Part I)
+22. Writing the ADC DMA Driver (Part II)
+
+//5: eveloping Bare-Metal ADC Timer Trigger DMA Drivers
+23. Writing the ADC Timer Triggered Driver
+24. Testing the ADC Timer Triggered Driver
+
+//6: Developing Bare-Metal UART DMA Drivers
+25. Overview of the UART Protocol
+26. Listing the Steps
+27. Implementing the UART RX TX Initialization functions
+28. Implementing the DMA Stream RX TX Configuration function (Part I)
+29. Implementing the DMA Stream RX TX Configuration function (Part II)
+30. Implementing the DMA Stream RX TX Configuration function (Part III)
+31. Testing the UART DMA Driver
+
+
+//7:  Developing Bare-Metal SPI DMA Drivers
+32. Understanding the SPI Protocol
+33. Analyzing the SPI Documentation
+34. Implementing the SPI DMA Initialization function
+35. Implementing the TX Stream Configuration function
+36. Implementing the RX Stream Configuration function
+37. Implementing the Transfer and Receive functions
+38. Implementing the MPU9250 Mems Device SPI DMA Driver (Part I)
+39. Implementing the MPU9250 Mems Device SPI DMA Driver (Part II)
+40. Implementing the MPU9250 Mems Device SPI DMA Driver (Part III)
+41. Implementing the MPU9250 Mems Device SPI DMA Driver (Part IV)
+42. Testing the MPU9250 Mems Device SPI DMA Driver
+
+
+//8: Developing Bare-Metal I2C DMA Drivers
+43. Understanding the I2C Protocol
+44. Analyzing the I2C Documentation
+45. Implementing the I2C DMA Initialization function (Part I)
+46. Implementing the I2C DMA Initialization function (Part II)
+47. Implementing the I2C DMA Tx Stream Initialization function
+48. Implementing the I2C DMA Rx Stream Initialization function
+49. Implementing the I2C DMA Stream Transfer function
+50. Implementing the I2C DMA Stream Receive function
+51. Implementing the I2C DMA Read function
+52. Implementing the I2C DMA Write function
+53. Implementing the I2C DMA Stream IRQHandlers
+54. Testing the I2C DMA Driver with the MPU9250 Mems Device
+
+//9:  Developing Bare-Metal PWM DMA Drivers
+55. Understanding STM32 Timers
+56. Analyzing the PWM Documentation
+57. Implementing the PWM Initialization function
+58. Developing the "set_dutycycle()" function
+59. Implementing the PWM DMA Initialization function(Part I)
+60. Implementing the PWM DMA Initialization function(Part II)
+61. Testing the PWM DMA Driver
+
+//10: More on Debugging
+62. Catching Anomalies with Breakpoints
+63. Catching HardFaults
+64. Debugging Timers using SWV Graph
+65. Measuring the Execution Time of an Algorithm
+66. Dumping Register Information
+67. Determining Execution Time and Place using Profiling
+
+//11:  Developing Bare-Metal RTC Drivers
+68. Understanding Real Time Clocks
+69. Listing the Steps for Configuring the RTC Calendar
+70. Implementing the RTC Calendar Initialization function (Part I)
+71. Implementing the RTC Calendar Initialization function (Part II)
+72. Setting the Timer Prescalers
+73. Exiting the Initialization Mode
+74. Getting the Calendar Information
+75. Testing the RTC Calendar Driver
+76. Implementing the RTC Alarm Initialization function (Part I)
+77. Implementing the RTC Alarm Initialization function (Part II)
+78. Implementing the RTC Alarm Interrupt Handler and Testing
+79. Analyzing the Steps to Configure the RTC Timestamp
+80. Implementing the RTC Timestamp Initialization function
+81. Implementing the RTC Timestamp Interrupt Handler
+82. Testing the RTC Timestamp Driver
+83. Implementing the RTC Tamper Detection Initialization function
+84. Testing the RTC Tamper Detection Driver
+
+//12:  Developing Bare-Metal Independent Watchdog(IWDG) Timer Drivers
+85. Overview of the Independent Watchdog
+86. Analyzing the Steps for Initializing the IWDG Timer
+87. Implementing the IWDG Initialization function
+88. Implementing other Modules for Testing the IWDG Driver
+89. Testing the IWDG Driver
+
+
+//13:  Developing Bare-Metal Windowed Watchdog(WWDG) Timer Drivers
+90. Overview of the Window Watchdog
+91. Implementing the WWDG Initialization function
+92. Testing the WWDG Driver
+
+//14: Developing Bare-Metal Drivers for Standby Mode and Wakeup
+93. Implementing the Standby and Wakeup Setup Function
+94. Getting the Source of a "Reset"
+95. Testing the Standby and Wakeup Driver
+96. Analyzing Steps for Developing an RTC Wakeup Timer Driver
+97. Implementing the RTC Wakeup Timer Initializationf Function
+98. Implementing the "rtc_enter_standby_mode()" Function
+99. Testing the RTC Wakeup timer Driver
+
+//15: Closing
+100. Closing Remarks
